@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<root>
+	<item>
+		<name>Windows-style ALT-TAB</name>
+		<identifier>akx.alt-tab</identifier>
+		<autogen>
+			__KeyToKey__
+			KeyCode::TAB, ModifierFlag::OPTION_L,
+			KeyCode::TAB, ModifierFlag::COMMAND_L,
+		</autogen>
+	</item>	
+	<item>
+		<name>Sane Pipe</name>
+		<identifier>akx.sane_pipe</identifier>
+		<autogen>
+			__KeyToKey__
+			KeyCode::BACKQUOTE, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION,
+			KeyCode::7, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION,
+		</autogen>
+	</item>
+	<item>
+		<name>Sane Backslash</name>
+		<identifier>akx.sane_backslash</identifier>
+		<autogen>
+			__KeyToKey__
+			KeyCode::MINUS, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION,
+			KeyCode::7, ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L
+		</autogen>
+	</item>	
+	<item>
+		<name>Sane Braces</name>
+		<identifier>akx.sane_braces</identifier>
+		<autogen>
+			__KeyToKey__
+			KeyCode::7, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION,
+			KeyCode::8, ModifierFlag::OPTION_L | MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT
+		</autogen>
+		<autogen>
+			__KeyToKey__
+			KeyCode::0, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION,
+			KeyCode::9, ModifierFlag::OPTION_L | MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT
+		</autogen>		
+	</item>
+</root>
