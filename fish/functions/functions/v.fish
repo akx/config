@@ -13,12 +13,14 @@ function v -d "Activate a virtualenv"
 	if test -d $envdir
 		echo "Activating $envdir"
 		source $envdir/bin/activate.fish
-		if test -d $projdir
-			echo "Chdiring to project directory $projdir"
-			cd $projdir
-		end
+		echo "Setting DEBUG=1"
+		set -x DEBUG 1
 	else
 		echo "No such env."
+	end
+	if test -d $projdir
+		echo "Chdiring to project directory $projdir"
+		cd $projdir
 	end
 end
 complete -x -c v -d "Project name" -a "(ls -1 /Users/akx/envs)"

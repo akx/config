@@ -1,1 +1,1 @@
-complete -x -c v -d "Project name" -a "(ls -1 /Users/akx/envs)"
+complete -x -c v -d "project" -a "(ls -1 /Users/akx/envs /Users/akx/build)"
