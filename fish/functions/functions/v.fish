@@ -14,7 +14,7 @@ function v -d "Activate a virtualenv"
 		echo "Activating $envdir"
 		source $envdir/bin/activate.fish
 		echo "Setting DEBUG=1"
-		set -x DEBUG 1
+		set -gx DEBUG 1
 	else
 		echo "No such env."
 	end
