@@ -41,4 +41,15 @@
 			KeyCode::9, ModifierFlag::OPTION_L | MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT
 		</autogen>		
 	</item>
+	<item>
+      <name>Finnish euro sign</name>
+      <name>( 'Alt-gr +e' to shift+4 )</name>
+      <identifier>remap.euro_sign</identifier>
+      <not>
+        VIRTUALMACHINE,
+        REMOTEDESKTOPCONNECTION,
+        VNC,
+      </not>
+      <autogen>__KeyToKey__ KeyCode::E, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION | ModifierFlag::NONE, KeyCode::KEY_4, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT</autogen>
+    </item>
 </root>
