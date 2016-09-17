@@ -1,4 +1,4 @@
-function v -d "Activate a virtualenv"
+function v --description 'Activate a virtualenv'
 	if test (count $argv) -lt 1
 		echo "Usage: v <environment name>"
 		return 1
@@ -6,11 +6,11 @@ function v -d "Activate a virtualenv"
 	set -l envname $argv[1]
 	set -l envdir ~/envs/$envname
 	set -l projdir ~/build/$envname
-	if set -q VIRTUAL_ENV
-		echo "Deactivating current virtualenv $VIRTUAL_ENV"
-		deactivate
-	end
 	if test -d $envdir
+		if set -q VIRTUAL_ENV
+			echo "Deactivating current virtualenv $VIRTUAL_ENV"
+			deactivate
+		end
 		echo "Activating $envdir"
 		source $envdir/bin/activate.fish
 		echo "Setting DEBUG=1"
@@ -23,4 +23,3 @@ function v -d "Activate a virtualenv"
 		cd $projdir
 	end
 end
-complete -x -c v -d "Project name" -a "(ls -1 /Users/akx/envs)"
