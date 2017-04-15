@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>org.sil.ukelele.keyboardlayout.finnishenhanced</string>
+	<key>CFBundleName</key>
+	<string>Finnish Enhanced</string>
+	<key>CFBundleVersion</key>
+	<string></string>
+	<key>KLInfo_Andrei Swedish</key>
+	<dict>
+		<key>TISInputSourceID</key>
+		<string>org.sil.ukelele.keyboardlayout.finnishenhanced.andreiswedish</string>
+		<key>TISIntendedLanguage</key>
+		<string>fi</string>
+	</dict>
+	<key>KLInfo_Finnish (PC)</key>
+	<dict>
+		<key>TISInputSourceID</key>
+		<string>org.sil.ukelele.keyboardlayout.finnishenhanced.finnish(pc)</string>
+		<key>TISIntendedLanguage</key>
+		<string>fi</string>
+	</dict>
+</dict>
+</plist>
