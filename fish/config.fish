@@ -9,3 +9,5 @@ set -x PATH "$CUDA_HOME/bin" $PATH
 set -g fish_user_paths "$HOME/.cargo/bin" "/usr/local/bin" $fish_user_paths
 set -g fish_user_paths "/usr/local/opt/gettext/bin" $fish_user_paths
 set -g fish_user_paths "/Users/akx/.local/bin" $fish_user_paths
+#set -x -g ANDROID_HOME "$HOME/Library/Android/sdk"
+#set -g fish_user_paths $fish_user_paths "$ANDROID_HOME/tools" "$ANDROID_HOME/platform-tools"
