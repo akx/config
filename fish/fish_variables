@@ -1,0 +1,77 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR --export ANSIBLE_NOCOWS:1
+SETUVAR --export CUDA_HOME:/usr/local/cuda
+SETUVAR --export EDITOR:subl\x20\x2dw
+SETUVAR --export HOMEBREW_AUTO_UPDATE_SECS:86400
+SETUVAR --export MONO_GAC_PREFIX:/usr/local
+SETUVAR --export PIP_REQUIRE_VIRTUALENV:true
+SETUVAR __fish_classic_git_prompt_initialized:\x1d
+SETUVAR __fish_init_1_50_0:\x1d
+SETUVAR __fish_init_2_39_8:\x1d
+SETUVAR __fish_init_2_3_0:\x1d
+SETUVAR __fish_init_3_x:\x1d
+SETUVAR _fish_abbr_af:git\x20kit\x20autofixup
+SETUVAR _fish_abbr_airhorn:ffplay\x20\x2dloop\x20999\x20\x7e/Documents/airhorn\x2ewav
+SETUVAR _fish_abbr_amend:git\x20commit\x20\x2d\x2damend
+SETUVAR _fish_abbr_bs:brew\x20services
+SETUVAR _fish_abbr_bss:brew\x20services\x20start
+SETUVAR _fish_abbr_dl:cd\x20\x7e/Downloads
+SETUVAR _fish_abbr_ds:python\x20manage\x2epy\x20devserver
+SETUVAR _fish_abbr_fixup:git\x20commit\x20\x2d\x2dfixup
+SETUVAR _fish_abbr_gb:git\x20branch
+SETUVAR _fish_abbr_gcan:git\x20commit\x20\x2d\x2damend\x20\x2d\x2dno\x2dedit
+SETUVAR _fish_abbr_gcm:git\x20commit\x20\x2dm
+SETUVAR _fish_abbr_gco:git\x20checkout
+SETUVAR _fish_abbr_gcop:git\x20checkout\x20\x2dp
+SETUVAR _fish_abbr_gfa:git\x20fetch\x20\x2d\x2dall\x20\x2dp
+SETUVAR _fish_abbr_gkdm:git\x20kit\x20del\x2dmerged
+SETUVAR _fish_abbr_gl:git\x20log\x20\x2d\x2doneline\x20\x2d\x2dcolor\x20\x2d\x2ddecorate\x20\x2dn20\x20\x2d\x2dgraph
+SETUVAR _fish_abbr_gp:git\x20pull\x20\x2d\x2dff\x2donly\x20\x2d\x2dall\x20\x2dp
+SETUVAR _fish_abbr_gpa:git\x20push\x20\x2du\x20akx\x20HEAD
+SETUVAR _fish_abbr_gph:git\x20push\x20\x2du\x20origin\x20HEAD
+SETUVAR _fish_abbr_gpuo:git\x20push\x20\x2du\x20origin
+SETUVAR _fish_abbr_gpv:git\x20push\x20\x2du\x20valohai\x20HEAD
+SETUVAR _fish_abbr_gre:git\x20rebase
+SETUVAR _fish_abbr_grec:git\x20rebase\x20\x2d\x2dcontinue
+SETUVAR _fish_abbr_grem:git\x20rebase\x20\x2di\x20master
+SETUVAR _fish_abbr_greom:git\x20rebase\x20\x2di\x20origin/master
+SETUVAR _fish_abbr_greum:git\x20rebase\x20\x2di\x20upstream/master
+SETUVAR _fish_abbr_gs:git\x20status
+SETUVAR _fish_abbr_gxa:gitx\x20\x2d\x2dall
+SETUVAR _fish_abbr_k:kubectl
+SETUVAR _fish_abbr_m:python\x20manage\x2epy
+SETUVAR _fish_abbr_namend:git\x20commit\x20\x2d\x2damend\x20\x2d\x2dno\x2dedit
+SETUVAR _fish_abbr_rs:python\x20manage\x2epy\x20runserver
+SETUVAR _fish_abbr_ytwav:youtube\x2ddl\x20\x2dx\x20\x2d\x2daudio\x2dformat\x20wav
+SETUVAR fish_color_autosuggestion:969896
+SETUVAR fish_color_command:c397d8
+SETUVAR fish_color_comment:e7c547
+SETUVAR fish_color_cwd:green
+SETUVAR fish_color_cwd_root:red
+SETUVAR fish_color_end:c397d8
+SETUVAR fish_color_error:d54e53
+SETUVAR fish_color_escape:cyan
+SETUVAR fish_color_history_current:cyan
+SETUVAR fish_color_host:\x2do\x1ecyan
+SETUVAR fish_color_match:cyan
+SETUVAR fish_color_normal:normal
+SETUVAR fish_color_operator:cyan
+SETUVAR fish_color_param:7aa6da
+SETUVAR fish_color_quote:b9ca4a
+SETUVAR fish_color_redirection:70c0b1
+SETUVAR fish_color_search_match:\x2d\x2dbackground\x3dpurple
+SETUVAR fish_color_selection:\x2d\x2dbackground\x3dpurple
+SETUVAR fish_color_status:red
+SETUVAR fish_color_user:\x2do\x1egreen
+SETUVAR fish_color_valid_path:\x2d\x2dunderline
+SETUVAR fish_greeting:\x1d
+SETUVAR fish_key_bindings:fish_default_key_bindings
+SETUVAR fish_pager_color_completion:normal
+SETUVAR fish_pager_color_description:555\x1eyellow
+SETUVAR fish_pager_color_prefix:cyan
+SETUVAR fish_pager_color_progress:cyan
+SETUVAR fish_user_abbreviations:gre\x20git\x20rebase\x1egco\x20git\x20checkout\x1eaf\x20git\x20kit\x20autofixup\x1egreom\x20git\x20rebase\x20\x2di\x20origin/master\x1ers\x20python\x20manage\x2epy\x20runserver\x1egfa\x20git\x20fetch\x20\x2d\x2dall\x20\x2dp\x1egp\x20git\x20pull\x20\x2d\x2dff\x2donly\x20\x2d\x2dall\x20\x2dp\x1egxa\x20gitx\x20\x2d\x2dall\x1efixup\x20git\x20commit\x20\x2d\x2dfixup\x1egcm\x20git\x20commit\x20\x2dm\x1egrec\x20git\x20rebase\x20\x2d\x2dcontinue\x1ebs\x20brew\x20services\x1ebss\x20brew\x20services\x20start\x1egpuo\x20git\x20push\x20\x2du\x20origin\x1egph\x20git\x20push\x20\x2du\x20origin\x20HEAD\x1egcan\x20git\x20commit\x20\x2d\x2damend\x20\x2d\x2dno\x2dedit\x1eamend\x20git\x20commit\x20\x2d\x2damend\x1em\x20python\x20manage\x2epy\x1enamend\x20git\x20commit\x20\x2d\x2damend\x20\x2d\x2dno\x2dedit\x1egrem\x20git\x20rebase\x20\x2di\x20master\x1eds\x20python\x20manage\x2epy\x20devserver\x1egl\x20git\x20log\x20\x2d\x2doneline\x20\x2d\x2dcolor\x20\x2d\x2ddecorate\x20\x2dn20\x20\x2d\x2dgraph\x1egkdm\x20git\x20kit\x20del_merged\x1egreum\x20git\x20rebase\x20\x2di\x20upstream/master\x1egs\x20git\x20status\x1egb\x20git\x20branch\x1egcop\x20git\x20checkout\x20\x2dp\x1egpa\x20git\x20push\x20\x2du\x20akx\x20HEAD\x1edl\x20cd\x20\x7e/Downloads\x1ek\x20kubectl\x1eytwav\x20youtube\x2ddl\x20\x2dx\x20\x2d\x2daudio\x2dformat\x20wav\x1egpv\x20git\x20push\x20\x2du\x20valohai\x20HEAD
+SETUVAR fish_user_paths:/Users/akx/bin
+SETUVAR fisher_last_update:1454955938
+SETUVAR fisher_prompt:\x1d

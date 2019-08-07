@@ -1,0 +1,28 @@
+#!/usr/bin/env python3
+import sys, os, subprocess, tempfile, shutil, atexit
+
+try:
+	input_path = sys.argv[1]
+	assert os.path.isfile(input_path)
+except (IndexError, AssertionError):
+	print('file required', file=sys.stderr)
+	sys.exit(1)
+
+basename, ext = os.path.splitext(input_path)
+
+if ext != '.jpg':
+	print(f'Converting {input_path} to JPEG first...')
+	fh, jpeg_path = tempfile.mkstemp(suffix='.jpg')
+	os.close(fh)
+	subprocess.check_call(['convert', input_path, '-quality', '100%', jpeg_path])
+	atexit.register(os.unlink, jpeg_path)
+	dest_path = basename + '.jpg'
+else:
+	jpeg_path = input_path
+	dest_path = input_path
+
+fh, temp_path = tempfile.mkstemp('.jpg')
+os.close(fh)
+subprocess.check_call(['jpeg-recompress', jpeg_path, temp_path])
+shutil.move(temp_path, dest_path)
+print(dest_path)
