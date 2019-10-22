@@ -8,5 +8,7 @@ mkmv () {
 	echo "$DESTDIR" $(find $DESTDIR -type f | wc -l)
 }
 
+[[ -d ~/Screenshots ]] || mkdir -p ~/Screenshots
+find ~/Desktop -name 'Screenshot *' -exec mv '{}' ~/Screenshots ';'
 mkmv ~/Downloads Downloads
 mkmv ~/Desktop Desktop

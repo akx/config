@@ -1,0 +1,2 @@
+#!/bin/bash
+gdd if=/dev/urandom bs=1K count=1 2>/dev/null | xxd
