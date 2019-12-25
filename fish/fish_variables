@@ -41,6 +41,7 @@ SETUVAR _fish_abbr_greum:git\x20rebase\x20\x2di\x20upstream/master
 SETUVAR _fish_abbr_grh:git\x20reset\x20HEAD\x7e
 SETUVAR _fish_abbr_gs:git\x20status
 SETUVAR _fish_abbr_gxa:gitx\x20\x2d\x2dall
+SETUVAR _fish_abbr_jri:jpeg\x2drecompress\x2dinplace
 SETUVAR _fish_abbr_k:kubectl
 SETUVAR _fish_abbr_m:python\x20manage\x2epy
 SETUVAR _fish_abbr_namend:git\x20commit\x20\x2d\x2damend\x20\x2d\x2dno\x2dedit

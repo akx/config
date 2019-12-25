@@ -1,0 +1,21 @@
+[user]
+	email = akx@iki.fi
+	name = Aarni Koskela
+[rebase]
+	autostash = true
+	autosquash = true
+[core]
+	excludesfile = /Users/akx/.gitignore
+[alias]
+	florbinate-retrograms = !echo \"$RANDOM retrograms florbinated\"
+	stauts = status
+	satus = status
+[rerere]
+	enabled = true
+[credential]
+	helper = osxkeychain
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
