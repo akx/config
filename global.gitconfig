@@ -19,3 +19,6 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[filesystem "AdoptOpenJDK|13.0.1|/dev/disk1s1"]
+	timestampResolution = 10000 nanoseconds
+	minRacyThreshold = 0 nanoseconds

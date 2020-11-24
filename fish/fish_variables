@@ -11,11 +11,13 @@ SETUVAR __fish_init_1_50_0:\x1d
 SETUVAR __fish_init_2_39_8:\x1d
 SETUVAR __fish_init_2_3_0:\x1d
 SETUVAR __fish_init_3_x:\x1d
+SETUVAR __fish_initialized:3100
 SETUVAR _fish_abbr_af:git\x20kit\x20autofixup
 SETUVAR _fish_abbr_airhorn:ffplay\x20\x2dloop\x20999\x20\x7e/Documents/airhorn\x2ewav
 SETUVAR _fish_abbr_amend:git\x20commit\x20\x2d\x2damend
 SETUVAR _fish_abbr_bs:brew\x20services
 SETUVAR _fish_abbr_bss:brew\x20services\x20start
+SETUVAR _fish_abbr_cobra:git\x20checkout\x20\x2db\x20\x28dd\x20if\x3d/dev/urandom\x20bs\x3d16\x20count\x3d1\x202\x3e/dev/null\x20\x7c\x20base64\x20\x7c\x20tr\x20\x2ddc\x20a\x2dz\x29
 SETUVAR _fish_abbr_dl:cd\x20\x7e/Downloads
 SETUVAR _fish_abbr_ds:python\x20manage\x2epy\x20devserver
 SETUVAR _fish_abbr_fixup:git\x20commit\x20\x2d\x2dfixup
@@ -49,6 +51,7 @@ SETUVAR _fish_abbr_rs:python\x20manage\x2epy\x20runserver
 SETUVAR _fish_abbr_tf:terraform
 SETUVAR _fish_abbr_ytwav:youtube\x2ddl\x20\x2dx\x20\x2d\x2daudio\x2dformat\x20wav
 SETUVAR fish_color_autosuggestion:969896
+SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:c397d8
 SETUVAR fish_color_comment:e7c547
 SETUVAR fish_color_cwd:green
@@ -58,6 +61,7 @@ SETUVAR fish_color_error:d54e53
 SETUVAR fish_color_escape:cyan
 SETUVAR fish_color_history_current:cyan
 SETUVAR fish_color_host:\x2do\x1ecyan
+SETUVAR fish_color_host_remote:yellow
 SETUVAR fish_color_match:cyan
 SETUVAR fish_color_normal:normal
 SETUVAR fish_color_operator:cyan
